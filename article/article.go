@@ -156,4 +156,11 @@ MapReduce的基本工作原理
 https://blog.csdn.net/fanxin_i/article/details/80388221
 Google-MapReduce-GFS-BigTable（Google三大论文）
 https://github.com/houmingyuan/Google-MapReduce-GFS-BigTable.git
+学习分布式系统需要怎样的知识？
+https://www.zhihu.com/question/23645117/answer/124708083
+了解数据库内部的学习材料列表
+https://github.com/pingcap/awesome-database-learning
+「分布式前沿技术专题」系列文章，
+https://www.infoq.cn/theme/48
+
 */
