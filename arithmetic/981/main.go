@@ -3,18 +3,22 @@ package main
 import (
 	"fmt"
 	"sort"
+	"time"
 )
 
 //[[],["love","high",10],["love","low",20],["love",5],["love",10],["love",15],["love",20],["love",25]]
 func main() {
-	obj := Constructor()
-	obj.Set("love", "high", 10)
-	obj.Set("love", "low", 20)
-	fmt.Println(obj.Get("love", 5))
-	fmt.Println(obj.Get("love", 10))
-	fmt.Println(obj.Get("love", 15))
-	fmt.Println(obj.Get("love", 20))
-	fmt.Println(obj.Get("love", 25))
+	t := time.Now()
+	fmt.Println(time.Date(t.Year(), t.Month(), t.Day(), 5, 0, 0, 0, t.Location()).Unix())
+	fmt.Println(time.Date(t.Year(), t.Month(), t.Day()+1, 5, 0, 0, 0, t.Location()).Unix())
+	//obj := Constructor()
+	//obj.Set("love", "high", 10)
+	//obj.Set("love", "low", 20)
+	//fmt.Println(obj.Get("love", 5))
+	//fmt.Println(obj.Get("love", 10))
+	//fmt.Println(obj.Get("love", 15))
+	//fmt.Println(obj.Get("love", 20))
+	//fmt.Println(obj.Get("love", 25))
 }
 
 type pair struct {

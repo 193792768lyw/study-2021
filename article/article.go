@@ -154,13 +154,32 @@ https://www.zhihu.com/question/43687427/answer/96677826
 
 MapReduce的基本工作原理
 https://blog.csdn.net/fanxin_i/article/details/80388221
+
 Google-MapReduce-GFS-BigTable（Google三大论文）
 https://github.com/houmingyuan/Google-MapReduce-GFS-BigTable.git
+
 学习分布式系统需要怎样的知识？
 https://www.zhihu.com/question/23645117/answer/124708083
+
 了解数据库内部的学习材料列表
 https://github.com/pingcap/awesome-database-learning
+
 「分布式前沿技术专题」系列文章，
 https://www.infoq.cn/theme/48
+
+https://zhuanlan.zhihu.com/p/55964292
+一篇文章讲透分布式存储
+雷神项目，翻译 mit 6.824 2020
+https://github.com/ivanallen/thor.git
+
+大型分布式存储方案MinIO介绍，看完你就懂了！
+https://cloud.tencent.com/developer/article/1786777
+
+开源分布式对象存储-MinIO
+https://zhuanlan.zhihu.com/p/103803549
+
+MinIO资源
+http://resources.minio.org.cn/
+
 
 */
