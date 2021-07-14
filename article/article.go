@@ -181,5 +181,12 @@ https://zhuanlan.zhihu.com/p/103803549
 MinIO资源
 http://resources.minio.org.cn/
 
+大规模高性能分布式存储系统设计与实现
+https://www.bilibili.com/video/BV1ii4y1s7DA?p=4&spm_id_from=pageDriver
 
+6.824 分布式系统 中文字幕（2020年）
+https://www.bilibili.com/video/BV16j411f7F4?from=search&seid=15945026381133569492
+
+2020 MIT 6.824 分布式系统
+https://www.bilibili.com/video/BV1R7411t71W?p=1
 */
