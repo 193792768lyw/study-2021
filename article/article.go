@@ -189,4 +189,7 @@ https://www.bilibili.com/video/BV16j411f7F4?from=search&seid=1594502638113356949
 
 2020 MIT 6.824 分布式系统
 https://www.bilibili.com/video/BV1R7411t71W?p=1
+
+磁盘I/O那些事
+https://tech.meituan.com/2017/05/19/about-desk-io.html
 */
