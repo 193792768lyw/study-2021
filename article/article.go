@@ -192,4 +192,19 @@ https://www.bilibili.com/video/BV1R7411t71W?p=1
 
 磁盘I/O那些事
 https://tech.meituan.com/2017/05/19/about-desk-io.html
+
+SQL,NoSQL和NewSQL的区别
+https://www.cnblogs.com/klb561/p/12064126.html
+
+MySQL学习笔记之四：并发控制和事务机制
+https://www.huaweicloud.com/articles/9e5d93420423f749b8f8de4b18a58ee1.html
+
+浅谈“HTAP”
+http://www.360doc.com/content/20/0913/22/32351304_935484857.shtml
+
+MVCC多版本并发控制
+https://www.jianshu.com/p/8845ddca3b23
+
+RTO和RPO
+https://blog.csdn.net/louisjh/article/details/100736389
 */
