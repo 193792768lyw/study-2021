@@ -207,4 +207,8 @@ https://www.jianshu.com/p/8845ddca3b23
 
 RTO和RPO
 https://blog.csdn.net/louisjh/article/details/100736389
+
+浅谈数据库并发控制 - 锁和 MVCC
+https://draveness.me/database-concurrency-control/
+
 */
