@@ -1,21 +1,22 @@
-package main // import "x.y/foo"
+package foo
 
-//
-//type A struct {
-//	n int
-//}
-//
-//func (a A) m() {
-//	fmt.Println("A", a.n)
-//}
-//
-//type I interface {
-//	m()
-//}
-//
-//func Bar(i I) {
-//	i.m()
-//}
+import "fmt"
+
+type A struct {
+	n int
+}
+
+func (a A) m() {
+	fmt.Println("A", a.n)
+}
+
+type I interface {
+	m()
+}
+
+func Bar(i I) {
+	i.m()
+}
 
 //type F func(int) bool
 //func (f F) Validate(n int) bool {

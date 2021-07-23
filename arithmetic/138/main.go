@@ -1,7 +1,39 @@
 package main
 
-func main() {
+import (
+	"fmt"
+)
 
+type Name interface {
+	name()
+}
+
+type name1 struct {
+	Name
+}
+
+//func(name1) name()  {
+//	fmt.Println("kkkkooooo")
+//}
+
+type kk struct {
+}
+
+func (kk) name() {
+	fmt.Println("kkkk")
+}
+func main() {
+	//	context.WithCancel()
+	//context.WithValue()
+	//	ee  := name1{kk{}}
+	//d.name.name()
+	//fmt.Println(ll)
+	//ch := make(chan int)
+	//close(ch)
+	//	for i := 0 ; i < 6 ;i++{
+	//		v , f :=<-ch
+	//		fmt.Println(v , f)
+	//	}
 }
 
 type Node struct {

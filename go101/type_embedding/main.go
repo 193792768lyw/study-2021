@@ -73,6 +73,7 @@ type Singer struct {
 func main5() {
 
 	var gaga = Singer{Person: Person{"Gaga", 30}}
+
 	gaga.PrintName() // Name: Gaga
 
 	gaga.Name = "Lady Gaga"
@@ -110,6 +111,10 @@ func main3() {
 	//map[string]int   // 非定义非指针类型
 	//[]int64          // 非定义非指针类型
 	//func()           // 非定义非指针类型
+}
+
+type name struct {
+	dd *name
 }
 
 func main1() {
