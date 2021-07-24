@@ -22,16 +22,39 @@ func worker(ctx context.Context, wg *sync.WaitGroup) error {
 }
 
 func main() {
-	ctx, cancel := context.WithTimeout(context.Background(), 1*time.Second)
+	//ctx, cancel := context.WithTimeout(context.Background(), 1*time.Second)
+	//
+	//var wg sync.WaitGroup
+	//for i := 0; i < 10; i++ {
+	//	wg.Add(1)
+	//	go worker(ctx, &wg)
+	//}
+	//
+	//time.Sleep(4 * time.Second)
+	//cancel()
+	//
+	////context.WithCancel()
+	//
+	//wg.Wait()
 
-	var wg sync.WaitGroup
-	for i := 0; i < 10; i++ {
-		wg.Add(1)
-		go worker(ctx, &wg)
-	}
+	ctx, cancel := context.WithTimeout(context.Background(), 20*time.Second)
 
-	time.Sleep(4 * time.Second)
+	ctx1, _ := context.WithTimeout(ctx, 10*time.Second)
+	//defer cancel1()
+
+	fmt.Println("sjkjvdk")
 	cancel()
+	select {
+	case <-time.After(30 * time.Second):
+		fmt.Println("overslept")
+	//case <-ctx.Done():
+	//	fmt.Println(ctx.Err()) // prints "context deadline exceeded"
+	case <-ctx1.Done():
+		fmt.Println(ctx1.Err(), "ppppppp") // prints "context deadline exceeded"
 
-	wg.Wait()
+	}
+	fmt.Println("djvnlau")
+	<-ctx.Done()
+	fmt.Println("dsnvfu")
+
 }

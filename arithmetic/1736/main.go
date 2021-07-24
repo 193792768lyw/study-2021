@@ -5,8 +5,35 @@ import (
 	"strings"
 )
 
-func main() {
+type IK interface {
+	name()
+	get()
+}
 
+type Ik2 struct {
+}
+
+func (receiver Ik2) name() {
+	fmt.Println("ik1")
+}
+func (receiver Ik2) get() {
+	fmt.Println("ik1")
+}
+
+type Ik1 struct {
+	IK
+}
+
+func (receiver Ik1) name() {
+	fmt.Println("ik777")
+}
+
+func main() {
+	var dd IK = Ik1{Ik2{}}
+	dd.name()
+
+	//context.WithValue()
+	//context.Background()
 	fmt.Println(maximumTime("0?:3?"))
 }
 func maximumTime1(time string) string {
